@@ -41,11 +41,11 @@ dryRun=false; % if true, only prints out paths & does not copy.
 
 %% Add mainFcnDirz to path
 
-% disp(" ");
-% disp("Adding main function directories/subdirectories to path..")
-% for jj=1:length(mainFcnDirz)
-%     addpath(genpath(mainFcnDirz{1,jj}))
-% end
+disp(" ");
+disp("Adding main function directories/subdirectories to path..")
+for jj=1:length(mainFcnDirz)
+     addpath(genpath(mainFcnDirz{1,jj}))
+end
 
 %% Run exportFinalPipeline.m
 
@@ -71,11 +71,11 @@ end
 
 %% Remove mainFcnDirz to path
 
-% disp(" ");
-% disp("Removing the original main function directories/subdirectories from path..")
-% for jj=1:length(mainFcnDirz)
-%     rmpath(genpath(mainFcnDirz{1,jj}))
-% end
+disp(" ");
+disp("Removing the original main function directories/subdirectories from path..")
+for jj=1:length(mainFcnDirz)
+     rmpath(genpath(mainFcnDirz{1,jj}))
+end
 
 %% Close up
 
