@@ -1,3 +1,14 @@
+% pipelineCleaner_v1 is a wrapper script for exportFinalPipeline.
+%
+% This is the "main function" you will update and run in the pipeCleaner
+% repository for cleaning/organizing MATLAB pipelines run and packaging 
+% them into a new project directory.
+%
+% Usage:
+% Update the parameters below and run this script either by pressing the
+% green "Run" button in the MATLAB IDE/GUI or by running the command
+% "pipelineCleaner_v1" in the MATLAB command window.
+%
 
 %% Set Parameters
 
@@ -81,7 +92,7 @@ genPrgrmDirz=1; % 1=generate program dirs listed in prgrmDirz
                 % Note: dryRun=true wil also turn of directory creation.
 
 % specify additional directories to generate within program outputDir              
-prgrmDirz={
+prgrmSubDirz={
     "additionalProgramDir1",...
     "additionalProgramDir1/Subdir",...
     "additionalProgramDir2",...
@@ -121,9 +132,16 @@ end
 
 %% Generate additional program directories if requested
 
-if genPrgrmDirz==1 && dryRun==false    
-    for hh=1:length(prgrmDirz)        
-        prgrmDir=strcat(outputDir,"/",prgrmDirz{1,hh});
+
+if genPrgrmDirz==1 && dryRun==false
+    
+    % announce on command line..
+    disp(" ");
+    disp("Creating additional subdirectories in output directory:");
+    for hh=1:length(prgrmSubDirz)
+        disp(prgrmSubDirz{1,hh});
+        prgrmSubDir=strcat(outputDir,"/",prgrmSubDirz{1,hh}); % grab next dir path from prgrmSubDirz
+        mkdir(prgrmSubDir); % create it
     end
 end
 
