@@ -165,6 +165,10 @@ prgrmSubDirz = {
 - Consider saving a project-specific copy of `pipelineCleaner.m` to reuse later.
 - If you find this useful, please give the GitHub repository a ⭐ and help spread the word!
 
+### Acknowledgements
+
+Developed by Ethan Duwell, PhD (June 2025).
+Ethan used OpenAI’s GPT-4o model to assist in development of this codebase.
 ---
 
 Happy pipeline cleaning!
