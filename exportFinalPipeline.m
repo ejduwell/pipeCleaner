@@ -2,6 +2,10 @@ function exportFinalPipeline(mainFuncPath, outputDir, onlyLocal, dryRun, dirs2ex
 % exportFinalPipeline - Copy all dependent user-defined MATLAB scripts/functions
 % using static analysis via matlab.codetools.requiredFilesAndProducts.
 %
+% Developed by Ethan Duwell, PhD. (06/2025)
+% Note: Ethan used OpenAI's GPT4o LLM model in the development of this 
+%       function and others in the pipeCleaner repository.
+%
 % Inputs:
 %   mainFuncPath     - Path to main .m file (string or char)
 %   outputDir        - Destination folder for copied files
