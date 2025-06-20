@@ -37,7 +37,7 @@ codeSubDirsOut={
 outputDirParent="/home/eduwell/SynologyDrive/SNAP/projects/sandbox/pipeCleaner";
 outputDir="sftNz";
 onlyLocal=true; % limit dependency search to your home directory? (true, false)
-dryRun=false; % if true, only prints out paths & does not copy.
+dryRun=true; % if true, only prints out paths & does not copy.
 
 %% Add mainFcnDirz to path
 
