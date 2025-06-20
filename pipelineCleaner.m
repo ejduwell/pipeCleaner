@@ -1,14 +1,42 @@
-% pipelineCleaner_v1 is a wrapper script for exportFinalPipeline.
+% pipelineCleaner is a wrapper script for exportFinalPipeline.
 %
-% This is the "main function" you will update and run in the pipeCleaner
-% repository for cleaning/organizing MATLAB pipelines run and packaging 
-% them into a new project directory.
+% Developed by Ethan Duwell, PhD. (06/2025)
+% Note: Ethan used OpenAI's GPT4o LLM model in the development of this 
+%       function and others in the pipeCleaner repository.
+%
+% This is the "main function/script" you will update and run in the 
+% pipeCleaner repository for cleaning/organizing MATLAB pipelines run and 
+% packaging them into a new project directory.
 %
 % Usage:
+%--------------------------------------------------------------------------
 % Update the parameters below and run this script either by pressing the
 % green "Run" button in the MATLAB IDE/GUI or by running the command
-% "pipelineCleaner_v1" in the MATLAB command window.
+% "pipelineCleaner" in the MATLAB command window.
+%--------------------------------------------------------------------------
 %
+% Suggestions/Tips:
+%--------------------------------------------------------------------------
+% - I find it useful to start by running run pipelineCleaner with dryRun
+% set to 'true'. This allows you to preview the total list of functions and
+% dependencies used in the pipeline before copying them into the final
+% directory. It also provides a convenient opportunity to copy/paste
+% portions of the full path strings printed on the command line into 
+% pathTagsIn to inform setting up how functions will be organized into 
+% subdirectories (see comment in "Set Parameters" section below for more
+% details)
+%
+% - For each pipeline you clean/organize with pipelineCleaner, you may
+% want to make a renamed copy (i.e. something like
+% pipelineCleaner_yourProjectName.m) to keep on file to help with
+% organization/later development etc. This will allow you to avoid needing
+% to delete parameter settings from other projects with each use. It may 
+% also prove useful later as a reference or for future development. Feel
+% free to make copies and adapt with imputity. Just remember to give us a
+% star on Github and point other folks in our direction if you find this 
+% useful.
+%--------------------------------------------------------------------------
+
 
 %% Set Parameters
 
