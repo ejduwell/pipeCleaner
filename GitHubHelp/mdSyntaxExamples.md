@@ -8,6 +8,14 @@ I.E. these ones:
 
 ![buttonPic](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/previewCodeButtons.png)
 
+These will only be available for you on your own repositories, but they are very useful for learning/editing markdown (.md files) syntax. 
+
+When you press the "code" button, it shows the underlying markdown code as currently written.
+
+When you press the "preview" button, it shows how that markdown code will render on the webpage.
+
+This is super useful to play with if you're wondering if you did something correctly/want to double check before committing changes after editing.
+
 ---
 
 ## 🔤 Section Headings
