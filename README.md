@@ -2,13 +2,13 @@
 
 Functions for cleaning up and organizing MATLAB program pipelines in an automated manner prior to deployment.
 
-## Overview
+## Overview:
 
 **pipeCleaner** is a lightweight toolkit for automating the organization and export of MATLAB pipelines/projects to Github. It identifies all user-defined functions and scripts required by one or more main entry-point functions using MATLAB's built-in static dependency analysis, then saves those dependencies to a clean, portable output directory structure. This is useful for preparing a finalized version of a MATLAB project for sharing, publication, or archiving.
 
 This repository/toolkit was developed by Ethan Duwell, PhD while working as a postdoc in the SNAP Lab (Sensory Neuroscience Attention and Perception) under Adam Greenberg, PhD at the Medical College of Wisconsin. Ethan created this to make it easier for students and posdocs with minimal software development skills to quickly organize, share, and archive their project code on GitHub. To that end, under the pipeCleaner/GitHubHelp folder there is a [template "README.md"](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/README_TEMPLATE.md) markdown file included as a starting point for people without experience with markdown syntax to build their own README.md page (like this one). [A help page for markdown syntax](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/mdSyntaxExamples.md) is also included.
 
-Key features:
+### Key features:
 
 - Automatically discovers and copies all dependent `.m` files
 - Allows grouping of files into custom subdirectories based on path tags
@@ -19,7 +19,7 @@ Key features:
     - Additional [markdown syntax help page](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/mdSyntaxExamples.md) to learn and/or cut and paste.
     - [Links to other useful resources for learning/using markdown](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/mdSyntaxExamples.md#-helpfulcool-resources)
 
-## Dependencies
+## Dependencies:
 
 - MATLAB R2021a or newer
 - Required Toolbox:
@@ -27,7 +27,7 @@ Key features:
 
 This tool relies on the `matlab.codetools.requiredFilesAndProducts` function, which is built into MATLAB R2021a+.
 
-## Installation
+## Installation:
 
 ### macOS and Linux
 
@@ -164,14 +164,14 @@ prgrmSubDirz = {
 };
 ```
 
-### Suggestions/Tips
+### Suggestions/Tips:
 
 - Start by running `pipelineCleaner` with `dryRun = true` to preview dependencies.
 - Use path snippets printed in dry-run output to build `pathTagsIn` for organizing your export.
 - Consider saving a project-specific copy of `pipelineCleaner.m` to reuse later.
 - If you find this useful, please give the GitHub repository a ⭐ and help spread the word!
 
-### Acknowledgements
+### Acknowledgements:
 
 - Developed by Ethan Duwell, PhD (June 2025).
 - Ethan used OpenAI’s GPT-4o model to assist in development of this codebase.
