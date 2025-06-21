@@ -109,7 +109,7 @@ outputDir="sftNz";
 % Specify onlyLocal and dryRun parameters.
 %--------------------------------------------------------------------------
 onlyLocal=true; % limit dependency search to your home directory? (true, false)
-dryRun=false; % if true, only prints out paths & does not copy.
+dryRun=true; % if true, only prints out paths & does not copy.
 %--------------------------------------------------------------------------
 
 % Specify genPrgrmDirz and prgrmDirz and prgrmDirz to generate additional
@@ -127,6 +127,16 @@ prgrmSubDirz={
     "additionalProgramDir2/Subdir",...   
     };
 %--------------------------------------------------------------------------
+
+%% Show Banner
+
+disp(" ");
+disp(" ");
+path2Ascii=which("pipeCleanerAscii.txt");
+scrollSpeed=5;
+scrollAsciiArt(path2Ascii, scrollSpeed);
+disp(" ");
+disp(" ");
 
 %% Add mainFcnDirz to path
 
