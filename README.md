@@ -14,6 +14,7 @@ Key features:
 - Allows grouping of files into custom subdirectories based on path tags
 - Supports exclusion of specified directories (e.g., toolboxes)
 - Optional dry-run preview mode
+- Enables students and postocs with no development experience to archive and share code in professional-looking manner on Github 
 
 ## Dependencies
 
