@@ -69,7 +69,7 @@ To include an image:
 
 Example:
 
-![OpenAI Logo](https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg)
+![pipeCleanerAscii](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/pipeCleanerAscii.png)
 
 ---
 
