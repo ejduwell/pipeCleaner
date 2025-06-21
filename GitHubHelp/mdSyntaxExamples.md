@@ -8,7 +8,7 @@ i.e. these ones:
 
 ![buttonPic](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/previewCodeButtons.png)
 
-These will only be available for you on your own repositories, but they are very useful for learning/editing markdown (.md files) syntax. 
+These will only be available for you on GitHub when viewing/editing your own repositories, but they are very useful for learning/editing markdown (.md files) syntax. 
 
 When you press the "code" button, it shows the underlying markdown code as currently written.
 
