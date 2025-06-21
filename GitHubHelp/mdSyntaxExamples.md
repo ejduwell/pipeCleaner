@@ -139,7 +139,7 @@ Jumping to a section within a GitHub README:
 
 ---
 
-## 📚 Helpful Resources
+## 📚 Helpful/Cool Resources
 
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
