@@ -144,5 +144,7 @@ Jumping to a section within a GitHub README:
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [Basic Syntax](https://www.markdownguide.org/basic-syntax/)
 - [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
+- [Jekyll: Cool free tool for converting .md files into websites](https://jekyllrb.com/)
+- [GitHub Pages: allows you to build a from-scrath website (using Jekyll) and host for free from on your GitHub](https://pages.github.com/)
 
 ---
