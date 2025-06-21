@@ -15,7 +15,7 @@ Key features:
 - Supports exclusion of specified directories (e.g., toolboxes)
 - Optional dry-run preview mode
 - Helps enable students and postocs without development experience to archive and share code in a professional-looking manner on Github by providing:
-    - A template README.MD file as a starting point for a typical Matlab project
+    - A template README.md file as a starting point for a typical Matlab project
     - Additional markdown syntax help page to learn and/or cut and paste.
 
 ## Dependencies
