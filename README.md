@@ -64,7 +64,7 @@ savepath
 
 Alternatively, download the ZIP from GitHub, extract it into your MATLAB path.
 
-## Usage
+## Usage:
 
 The main function you will update and run is `pipelineCleaner.m`, located in the root of this repository.
 
