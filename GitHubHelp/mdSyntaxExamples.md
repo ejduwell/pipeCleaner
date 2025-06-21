@@ -3,7 +3,9 @@
 This document provides examples of common Markdown syntax that you can use in your README.md files.
 
 First though, before you proceed, presuming you are editing/updating your README.md/other markdown .md files on GitHub, if you haven't already, try playing with the "edit" and "preview" buttons in the upper left. 
+
 I.E. these ones:
+
 ![buttonPic](https://github.com/ejduwell/pipeCleaner/blob/main/GitHubHelp/previewCodeButtons.png)
 
 ---
