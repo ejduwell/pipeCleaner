@@ -36,10 +36,14 @@ Open a terminal and run the following commands:
 ```bash
 # Change directory to desired install location
 cd ~/Documents/MATLAB
+```
 
+```bash
 # Clone the repository
 git clone https://github.com/ejduwell/pipeCleaner.git
+```
 
+```bash
 # Add it to your MATLAB path (inside MATLAB):
 addpath(genpath('~/Documents/MATLAB/pipeCleaner'))
 savepath
