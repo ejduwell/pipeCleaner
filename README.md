@@ -49,6 +49,12 @@ Then open MATLAB and run:
 % Add it to your MATLAB path (inside MATLAB):
 addpath(genpath('~/Documents/MATLAB/pipeCleaner'))
 savepath
+
+% Note: to add this to your MATLAB path "permenantly", paste
+% the "addpath" command above into your startup.m file.
+% (startup.m is typically located in "~/Documents/MATLAB".
+% If you don't have one already, you can create one there,
+% and it will run everytime you open MATLAB)
 ```
 
 ### Windows
@@ -70,6 +76,12 @@ system('git clone https://github.com/ejduwell/pipeCleaner.git')
 % Add it to your MATLAB path:
 addpath(genpath('~/Documents/MATLAB/pipeCleaner'))
 savepath
+
+% Note: to add this to your MATLAB path "permenantly", paste
+% the "addpath" command above into your startup.m file.
+% (startup.m is typically located in "~/Documents/MATLAB".
+% If you don't have one already, you can create one there,
+% and it will run everytime you open MATLAB)
 ```
 
 Alternatively, download the ZIP from GitHub, extract it into your MATLAB path.
