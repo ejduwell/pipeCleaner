@@ -43,6 +43,8 @@ cd ~/Documents/MATLAB
 git clone https://github.com/ejduwell/pipeCleaner.git
 ```
 
+Then open MATLAB and run:
+
 ```matlab
 % Add it to your MATLAB path (inside MATLAB):
 addpath(genpath('~/Documents/MATLAB/pipeCleaner'))
